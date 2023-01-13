@@ -1,4 +1,4 @@
-const { RENDER_BAD_REQUEST, createInvoice } = require("../common/utils");
+const { RENDER_BAD_REQUEST, createInvoice } = require("./utils");
 
 const testing = async (req, res) => {
   try {
